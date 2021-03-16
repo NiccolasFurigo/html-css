@@ -2,6 +2,7 @@
 
 body {
     background: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*-----------------------FIELDSET'S--------------------*/
 fieldset#cabecalho {
@@ -9,22 +10,12 @@ fieldset#cabecalho {
     margin: -9px;
     border: none;
     padding-bottom: 100px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 fieldset#conteudo {
     background-color: rgb(182, 182, 182);
     border: none;
     margin: 50px 700px 10px 50px;
     border-radius: 10px;
-}
-/*-----------------IMAGEM LOGO HTML CONTEUDO----------*/
-#html{
-    position: absolute;
-    margin: -30px 0px 0px -50px;
-}
-#codigo{
-    margin-left: 40px;
-    margin-top: 10px;
 }
 /*-----------------------CABEÇALHO--------------------*/
 div#logo-site p {
@@ -57,11 +48,52 @@ div#subtitulo h2{
     font-size: 40pt;
     margin-top: 0px;
 }
-/*-----------------------IMAGENS-----------------------*/
+/*-----------------IMAGENS CABEÇALHO------------------*/
 div#logo {
-    text-align: right;
+    position: absolute;
+    margin: -320px 10px 0px 500px;
     display: block;
     height: 70px;
+}
+div#logo02 img#HTML5{
+    transform: rotate(20deg);
+    position: absolute;
+    margin: -320px 10px 0px 500px;
+    display: block;
+}
+div#logo02 img#CSS{
+    transform: rotate(-20deg);
+    position: absolute;
+    margin: -200px 10px 0px 500px;
+    display: block;
+}
+div#logo02 img#JS{
+    position: absolute;
+    margin: -230px 10px 0px 570px;
+    display: block;
+}
+/*-----------------------CONTEUDO-----------------------*/
+/*--------------------TEXTO CONTEUDO--------------------*/
+.titulo {
+    color: #2b0963;
+    font-size: 25pt;
+    text-align: center;
+}
+.conteudo {
+    color: black;
+    font-size: 20pt;
+    text-align: left;
+    position: absolute;
+    margin: -250px 450px 0px 570px;
+}
+/*--------------------IMAGEM CONTEUDO-------------------*/
+#html{
+    position: absolute;
+    margin: -40px 0px 0px -55px;
+}
+#codigo{
+    margin-left: 40px;
+    margin-top: 10px;
 }
 /*-----------------------RODAPÉ-----------------------*/
 footer {
