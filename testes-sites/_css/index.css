@@ -17,6 +17,47 @@ fieldset#conteudo {
     margin: 50px 700px 10px 50px;
     border-radius: 10px;
 }
+/*-------------------------MENU-----------------------*/
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+li:hover {
+    background-color: #038c96;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+li#cM {
+    background-color: red;
+}
+li#cM:hover {
+    background-color: rgb(161, 10, 10);
+}
+li#cFL {
+    background-color: gray;
+}
+li#cFL:hover {
+    background-color: #606060;
+}
 /*-----------------------CABEÇALHO--------------------*/
 div#logo-site p {
     color: white;
