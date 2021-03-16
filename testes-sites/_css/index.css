@@ -34,12 +34,13 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    border-radius: 8px;
 }
 li:hover {
     background-color: #038c96;
 }
 nav#menu a {
-    color: #000000;
+    color: white;
     text-decoration: none;
 }
 nav#menu a:hover {
