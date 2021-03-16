@@ -14,7 +14,6 @@ fieldset#cabecalho {
 fieldset#conteudo {
     background-color: rgb(182, 182, 182);
     border: none;
-    margin: 50px 700px 10px 50px;
     border-radius: 10px;
 }
 /*-------------------------MENU-----------------------*/
@@ -94,6 +93,7 @@ div#subtitulo h2{
 div#logo {
     position: absolute;
     margin: -320px 10px 0px 500px;
+    width: auto;
     display: block;
     height: 70px;
 }
@@ -126,7 +126,9 @@ div#logo02 img#JS{
     font-size: 20pt;
     text-align: left;
     position: absolute;
-    margin: -250px 450px 0px 570px;
+    top: 700px;
+    left: 500px;
+    margin: auto;
 }
 /*--------------------IMAGEM CONTEUDO-------------------*/
 #html{
