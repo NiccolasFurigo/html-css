@@ -1,1 +1,6 @@
 @charset "UTF-8";
+
+#Botao {
+    border-radius: 5px;
+    background-color: lightsteelblue;
+}
