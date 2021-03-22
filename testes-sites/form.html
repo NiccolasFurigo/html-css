@@ -33,12 +33,31 @@
             <input type="radio" name="tAplic" id="cFull"><label for="cFull">Full Stack</label>
         </div>
         <div>
-            <label for="cSenior">Senioriade:</label>
-            <select name="tSenior" id="cSenior">
+            <label for="">Senioriade:</label>
+            <select name="tSenior" id="cSenior">7
+                <option value="" selected disabled>Selecione</option>
+                <option value="Estagio">Estagiário</option>
                 <option value="Junior">Junior</option>
                 <option value="Pleno">Pleno</option>
                 <option value="Senior">Senior</option>
             </select>
+        </div>
+        <fieldset>
+            <div>
+                <label for="">Desenvolvimento</label>
+            </div>
+            <div>
+                <input type="checkbox" name="tHTML" id="cHTML"><label for="cHTML"><abbr title="HyperText Markup Language">HTML5</abbr></label>
+                <input type="checkbox" name="tCSS" id="cCSS"><label for="cCSS"><abbr title="Cascading Style Sheets">CSS3</abbr></label>
+                <input type="checkbox" name="tJS" id="cJS"><label for="cJS">JavaScript</label>
+                <input type="checkbox" name="tPHP" id="cPHP"><label for="cPHP">PHP</label>
+                <input type="checkbox" name="tJAVA" id="cJAVA"><label for="cJAVA">Java</label>
+                <input type="checkbox" name="tPy" id="cPy"><label for="cPy">Python</label>
+                <input type="checkbox" name="tKot" id="cKot"><label for="cKot">Kotlin</label>
+            </div>
+        </fieldset>
+        <div>
+            <label for="cArea">Descrição:</label><textarea name="tArea" id="cArea" cols="20" rows="6" placeholder="Fale sobre sua experiência"></textarea>
         </div>
     </form>
     <footer>&copy;NiccolasFurigo</footer>
