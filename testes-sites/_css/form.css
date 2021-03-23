@@ -1,13 +1,61 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 body {
+    background: #add8e6;
+    margin-top: 2%;
+    margin-left: 36%;
+    font-family: sans-serif;
     justify-content: center;
 }
-#Botao {
+fieldset {
+    border: none;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: .1em;
+}
+#titulo {
+    color: ;
+    margin-left: 7%;
+}
+#subtitulo {
+    color: #380B61;
+    margin-left: 8%;
+}
+.campo {
+    margin-bottom: .2em;
+    padding: .2em;
+    display: block;
+}
+.campo label {
+    display: block;
+}
+.aplic {
+    margin-bottom: .2em;
+}
+div#check {
+    display: inline-block;
+    margin-right: .1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #380B61;
     border-radius: 5px;
-    background-color: lightsteelblue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    display: block;
+}
+#botao {
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-left: 15%;
+}
+
+footer {
+    margin-left: 14%;
 }

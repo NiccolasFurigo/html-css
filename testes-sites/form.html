@@ -6,35 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="_css/form.css">
-    <link rel="stylesheet" href="_css/index.css">
 </head>
 <body>
     <header></header>
     <form action="">
         <div>
-            <h1>Formulário Dev</h1>
-            <p>Preencha todos os campos</p>
+            <h1 id="titulo">Formulário Dev</h1>
+            <p id="subtitulo">Preencha todos os campos</p>
         </div>
-        <fieldset>
-            <div>
-                <label for="cName">Nome:</label> <input type="text" name="tName" id="cName">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="cName">Nome: </label><input type="text" name="tName" id="cName">
             </div>
-            <div>
+            <div class="campo">
                 <label for="cSobre">Sobrenome: <input type="text" name="tSobre" id="cSobre"></label>
             </div>
         </fieldset>
-        <div>
+        <div class="campo">
             <label for="cEmail">Email: <input type="email" name="tEmail" id="cEmail"></label>
         </div>
-        <div>
+        <div class="aplic">
             <label for="">Qual a sua aplicação?</label>
-            <input type="radio" name="tAplic" id="cFront"><label for="cFront">Front-end</label>
+            <input type="radio" name="tAplic" id="cFront" checked><label for="cFront">Front-end</label>
             <input type="radio" name="tAplic" id="cBack"><label for="cBack">Back-end</label>
             <input type="radio" name="tAplic" id="cFull"><label for="cFull">Full Stack</label>
         </div>
-        <div>
+        <div class="campo">
             <label for="">Senioriade:</label>
-            <select name="tSenior" id="cSenior">7
+            <select name="tSenior" id="cSenior">
                 <option value="" selected disabled>Selecione</option>
                 <option value="Estagio">Estagiário</option>
                 <option value="Junior">Junior</option>
@@ -43,10 +42,10 @@
             </select>
         </div>
         <fieldset>
-            <div>
-                <label for="">Desenvolvimento</label>
+            <div class="campo">
+                <label for="">Desenvolvimento:</label>
             </div>
-            <div>
+            <div id="check">
                 <input type="checkbox" name="tHTML" id="cHTML"><label for="cHTML"><abbr title="HyperText Markup Language">HTML5</abbr></label>
                 <input type="checkbox" name="tCSS" id="cCSS"><label for="cCSS"><abbr title="Cascading Style Sheets">CSS3</abbr></label>
                 <input type="checkbox" name="tJS" id="cJS"><label for="cJS">JavaScript</label>
@@ -56,10 +55,10 @@
                 <input type="checkbox" name="tKot" id="cKot"><label for="cKot">Kotlin</label>
             </div>
         </fieldset>
-        <div>
-            <label for="cArea">Descrição:</label><textarea name="tArea" id="cArea" cols="20" rows="6" placeholder="Fale sobre sua experiência"></textarea>
+        <div class="campo">
+            <label for="cArea">Descrição:</label><textarea name="tArea" id="cArea" cols="40" rows="6" placeholder="Fale sobre sua experiência"></textarea>
         </div>
-        <input type="button" id="Botao" value="Enviar">
+        <input type="button" id="botao" value="Enviar">
     </form>
     <footer>&copy;NiccolasFurigo</footer>
 </body>
