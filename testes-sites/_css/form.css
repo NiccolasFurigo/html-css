@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    background: #add8e6;
+    background: #69CAEA;
     margin-top: 2%;
     margin-left: 36%;
     font-family: sans-serif;
@@ -19,7 +19,7 @@ fieldset.grupo .campo{
     margin-right: .1em;
 }
 #titulo {
-    color: ;
+    color: #380B61;
     margin-left: 7%;
 }
 #subtitulo {
@@ -27,6 +27,7 @@ fieldset.grupo .campo{
     margin-left: 8%;
 }
 .campo {
+    color: #230778;
     margin-bottom: .2em;
     padding: .2em;
     display: block;
@@ -35,9 +36,12 @@ fieldset.grupo .campo{
     display: block;
 }
 .aplic {
+    color: #230778;
+    display: inline-block;
     margin-bottom: .2em;
 }
 div#check {
+    color: #230778;
     display: inline-block;
     margin-right: .1em;
 }
@@ -51,9 +55,14 @@ div#check {
 #botao {
     width: 100px;
     height: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
     justify-content: center;
     margin-bottom: 1em;
     margin-left: 15%;
+}
+#botao:hover {
+    background: gray;
 }
 
 footer {
