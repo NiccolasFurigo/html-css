@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0%;
+    background: #33495e;
+}
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
