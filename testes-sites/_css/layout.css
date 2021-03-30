@@ -49,3 +49,36 @@ img {
     flex: 1 1 200px;
     margin: 10px;
 }
+/*CSS Grid 1*/
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 20px;          /*Substitui o grid-gap*/
+}
+.grid1 div:nth-child(n + 4) {   /*Seleciona a partir do 4º item*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;          /*Substitui o grid-gap*/
+    align-items: center;
+}
+.grid1 div.anuncio{
+    grid-column: 1;     /*vai ficar na coluna 1*/
+    grid-row: 2 / 5;    /*vai da linha 2 até a linha 5*/
+    display: block;
+}
+@media (max-width: 680px){
+    .grid1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid1 div:nth-child(n + 4){
+        display: block;
+    }
+    .grid1 div.anuncio{
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
+}
