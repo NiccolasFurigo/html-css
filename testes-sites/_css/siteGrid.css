@@ -83,7 +83,24 @@ grid-area: header;                                              /*Definindo que 
 /*Content*/
 .content{
     grid-area: content;                                 /*Definindo que o content ficara na parte da estrutura content*/
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
+.col-wide{
+    grid-column: 1 / -1;                                /*Expandindo da coluna 1 até a ultima coluna*/
+}
+.imagem-1{
+    grid-row: span 2;                                   /*Expandindo 2 linhas*/
+    align-self: end;                                    /*Alinhando o item no final da linha*/
+}
+.imagem-2{
+    align-self: end;                                    /*Alinhando o item no final da linha*/
+}
+/*Estilos Content*/
 /*Anuncios*/
 .anuncios{
     grid-area: anuncios;                                /*Definindo que o anuncios ficara na parte da estrutura anuncios*/
