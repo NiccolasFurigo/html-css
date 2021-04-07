@@ -1,3 +1,3 @@
 # html-css
- Testando aplicações CSS <br>
- Site não responsivo
+Projetos Responsivos,
+Avançando conhecimento em CSS
